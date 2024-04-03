@@ -4,7 +4,6 @@ import UseFetch from "../UseFetch";
 import Loader from "../Loader/Loader";
 const Home = () => {
   const data = UseFetch("https://api.github.com/users/github");
-  console.log(data);
   return (
     <div className="home">
       <div className="info">
